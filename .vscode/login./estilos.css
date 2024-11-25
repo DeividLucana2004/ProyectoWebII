@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(135deg, #949494, #71917c);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo de la tarjeta */
+.card {
+    border-radius: 12px; 
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+}
+
+/* Encabezado de la tarjeta */
+.card-header {
+    background: #163125;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px; 
+    border-radius: 12px 12px 0 0; 
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+    padding: 50px; 
+    background: white;
+    border-radius: 0 0 12px 12px; 
+}
+
+/* Estilo de las etiquetas de los formularios */
+.form-label {
+    font-weight: 600; 
+    font-size: 1.1rem; 
+}
+
+/* Estilo de los campos de formulario */
+.form-control {
+    border-radius: 8px; 
+    box-shadow: none;
+    margin-bottom: 20px; 
+    padding: 12px; 
+    font-size: 1rem; 
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background-color: #9bb4a8;
+    border: none;
+    font-weight: 600; 
+    width: 100%;
+    padding: 12px; 
+    font-size: 1.1rem; 
+}
+
+/* Hover del botón */
+.btn-primary:hover {
+    background-color: #a1a1a1;
+}
+
+/* Estilo de las alertas */
+.alert {
+    border-radius: 8px; 
+    font-size: 1rem; 
+    padding: 12px; 
+}
+
