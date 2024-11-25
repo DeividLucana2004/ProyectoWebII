@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>EA - Belleza Natural </title>
+  <meta name="title" content="EA - Belleza Natural">
+  <meta name="description" content="Esta es una plantilla HTML de Esencia Amazonica creado por aleaguilar">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel=" icon" href="favicon.svg/locion.png" type="image/png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="imagenes.ea/inicio7.jpg">
+  <link rel="preload" as="image" href="imagenes.ea/1inicioo.jpeg">
+  <link rel="preload" as="image" href="imagenes.ea/2inicioo.jpeg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">EA</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Esencia Amazonica: Los Pinos 9578, La Paz
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Todos los dias: 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+591 68249563</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="reserva@esenciaamazonica.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">reserva@esenciaamazonica.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+<!-- Header con menú de navegación -->
+<header class="header" data-header>
+  <div class="container">
+
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <img src="imagenes/logoEA.png" width="160" height="50" alt="Grilli - Home">
+    </a>
+
+    <!-- Navbar -->
+    <nav class="navbar" data-navbar>
+
+      <!-- Botón de cierre del menú -->
+      <button class="close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <!-- Logo repetido en la navbar (opcional) -->
+      <a href="#" class="logo">
+        <img src="imagenes/logoEA.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <!-- Lista del menú de navegación -->
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link hover-underline active">
+            <div class="separator"></div>
+            <span class="span">Inicio</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#service" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Combos</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Historia</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#special-dish" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Especial</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#menu" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Productos</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#reservation" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Reserva</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#event" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Actualizaciones</span>
+          </a>
+        </li>
+        
+
+        <li class="navbar-item">
+          <a href="#footer" class="navbar-link hover-underline">
+            <div class="separator"></div>
+            <span class="span">Noticias y Ofertas</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Información de contacto en el menú (opcional) -->
+      <div class="text-center">
+        <p class="headline-1 navbar-title">Visit Us</p>
+        <address class="body-4">
+         Esencia Amazonica: <br>
+         Los Pinos 9578, La Paz
+
+        </address>
+        <p class="body-4 navbar-text">Hora de apertura: 9.30 am - 2.30 pm</p>
+        <a href="reserva@esenciaamazonica.com" class="body-4 sidebar-link">reserva@esenciaamazonica.com</a>
+        <div class="separator"></div>
+        <p class="contact-label">Solicitud de reserva</p>
+        <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+591 68249563</a>
+      </div>
+    </nav>
+
+    <!-- Botón de Login -->
+    <a href="/login./login.html" class="btn btn-secondary">
+      <span class="text text-1">Login</span>
+      <span class="text text-2" aria-hidden="true">Login</span>
+    </a>
+
+    <!-- Botón para abrir el menú -->
+    <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+      <span class="line line-1"></span>
+      <span class="line line-2"></span>
+      <span class="line line-3"></span>
+    </button>
+
+    <!-- Fondo oscuro del menú -->
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+</header>
+
+<main>
+  <article>
+    <!-- Aquí empieza el contenido del sitio -->
+  </article>
+</main>
+
+
+        <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="imagenes.ea/inicio7.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Donde La Belleza Natural Cobra Vida</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Por el amor<br>
+              al cuidado personal
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+            Siente la Magia de la Belleza Amazonica en Tu Piel   
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Explora Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Explora Nuestros Productos</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="imagenes.ea/1inicioo.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Una Experiencia Encantadora de Belleza Natural</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Una Piel Saludable <br>
+              es una Piel Mas Hermosa
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Siente la Magia de la Belleza Amazonica en Tu Piel   
+
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Explora Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Explora Nuestros Productos</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="imagenes.ea/2inicioo.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Asombrosa & Naturalmente Radiante</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Aceite Humectante<br>
+              Para Tu Belleza
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Siente la Magia de la Belleza Amazonica en Tu Piel   
+
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Explora Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Explora Nuestros Productos</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="imagenes.ea/icono7.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Productos </span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">COMBOS</p>
+
+          <h2 class="headline-1 section-title">Ofrecemos Lo Mejor</h2>
+
+          <p class="section-text">
+            "Explora nuestros combos exclusivos de cuidado de la piel con sérums, cremas y aromaterapia. Todo lo que necesitas para una belleza natural y revitalizante."
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="imagenes.ea/conbos1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Combo 1</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Ver Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="imagenes.ea/combos2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Combo 2</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Ver Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="imagenes.ea/combos3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Combo 3</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Ver Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="imagenes.ea/ico.crema.jpg" width="396" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">EA</p>
+
+            <h2 class="headline-1 section-title">Historia </h2>
+
+            <p class="section-text">
+              "En Esencia Amazónica, cada producto no solo cuida tu piel, sino que cuenta una historia profundamente en las tradiciones de la Amazonía.
+               Los ingredientes naturales que utilizamos provienen de una selva rica en biodiversidad, donde las plantas y frutos han sido utilizados por generaciones para curar y embellecer. 
+               Cada fórmula está inspirada en los secretos milenarios de la Amazonía, trayendo a tu piel la pureza y el poder de la naturaleza en su estado más puro. 
+              Cada aroma, textura y beneficio es una invitación a viajar al corazón de la selva, experimentando su magia a través de nuestros productos."
+            </p>
+
+            <div class="contact-label">Reserva</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+591 68249563</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Leer Mas</span>
+
+              <span class="text text-2" aria-hidden="true">Leer Mas</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="imagenes.ea/fin4.avif" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="imagenes.ea/grande1.avif" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="imagenes.ea/pequeño8-removebg-preview.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+      
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section id="special-dish" class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="imagenes.ea/pixelcut-export.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="imagenes.ea/hoja (1).png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Especial</p>
+
+            <h2 class="headline-1 section-title">Serum Contorno de Ojos</h2>
+
+            <p class="section-text">
+              "Una maravilla de la naturaleza con timoquinona, un potente antioxidante e antiinflamatorio, diseñado para revitalizar y tonificar tu piel. 
+              La sinergia de plantas y semillas nutre profundamente, fortaleciendo el tejido conectivo y rejuveneciendo el contorno de ojos. 
+              Nuestro Óleo Silencioso, es el símbolo de nuestra dedicación a la calidad y la innovación en productos naturales y orgánicos."
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">85 Bs</del>
+
+              <span class="span body-1">45 Bs</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Ver todo el Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Ver todo el Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+<img src="imagenes.ea/4en1-removebg-preview.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+
+      </section>
+
+
+<!-- #MENU -->
+<section class="section menu" aria-label="menu-label" id="menu">
+  <div class="container">
+
+    <p class="section-subtitle text-center label-2">Productos</p>
+    <h2 class="headline-1 section-title text-center">Elige lo Mejor para Resaltar tu Belleza </h2>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/aceite1.jpg" alt="Greek Salad" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title"> Serum de Eucalipto Chino</a>
+            </h3>
+            <span class="badge label-1">Agotado</span>
+            <span class="span title-2">50 Bs</span>
+          </div>
+          <p class="card-text">
+            Refrescante  ideal para revitalizar la piel irritada y equilibrar la piel grasa.
+                    </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/aceite3.jpg" alt="Greek Salad" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Serum de Plantas Silvestres</a>
+            </h3>
+            <span class="badge label-1">Agotado</span>
+            <span class="span title-2">45 Bs</span>
+          </div>
+          <p class="card-text">
+            Regenerador y cicatrizante, para calmar y reparar la piel, dejándola suave y equilibrada.
+                    </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/suero.jpg" alt="Tokusen Wagyu" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Serum de Eucalipto de Madera</a>
+            </h3>
+            <span class="badge label-1">Agotado</span>
+            <span class="span title-2">40 Bs</span>
+          </div>
+          <p class="card-text">
+            Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/aceite2.jpg" alt="Tokusen Wagyu" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Serum de Eucalipto Normal</a>
+            </h3>
+            <span class="badge label-1">Agotado</span>
+            <span class="span title-2">48 Bs</span>
+          </div>
+          <p class="card-text">
+            Calmante y purificante, perfecto para tonificar la piel sensible y reducir rojeces.
+                    </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/solido1.jpg" alt="Lasagne" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Perfume Sólido de Lavanda y Romero</a>
+            </h3>
+            <span class="span title-2">50 Bs</span>
+          </div>
+          <p class="card-text">
+            Relajante y revitalizante, una mezcla floral y herbal.        
+            </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/solido2.jpg" alt="Butternut Pumpkin" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Perfume Sólido de Flor de Loto</a>
+            </h3>
+            <span class="span title-2">45 Bs</span>
+          </div>
+          <p class="card-text">
+            Fresca y suave, evoca serenidad y calma natural.
+                    </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/perfume9.jpg" alt="Olivas Rellenas" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Perfume Sólido de Hojas de Mentas</a>
+            </h3>
+            <span class="span title-2">57 Bs</span>
+          </div>
+          <p class="card-text">
+            Refrescante y energizante, ideal para mantenerte fresco.   
+                 </p>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" data-aos="fade-up" data-aos-duration="3000">
+            <img src="imagenes.ea/perfume10.jpg" alt="Opu Fish" class="img-cover">
+          </figure>
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Perfume Sólido de Jazmín y Sándalo</a>
+            </h3>
+            <span class="span title-2">52 Bs</span>
+          </div>
+          <p class="card-text">
+            Mezcla floral y amaderada, que aporta profundidad fresco.
+                    </p>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Texto de horario centrado -->
+    <div class="winter-hours-container">
+      <p class="winter-hours">"Durante el invierno, disfruta de la esencia de la Amazonía todos los días de 7:00 p.m. a 9:00 p.m."</p>
+    </div>
+  </div>
+
+    <!-- Contenedor para el botón centrado -->
+    <div class="btn-container">
+      <a href="#" class="btn btn-primary">
+        <span class="text text-1">Ver todo el menu</span>
+        <span class="text text-2" aria-hidden="true">Ver todo el menu</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('imagenes.ea/persona5.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            "Los productos de Esencia Amazónica no solo cautivaron mis sentidos, sino que dejaron mi piel renovada y radiante, como la misma naturaleza de la Amazonía."
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="imagenes.ea/yo.9jpg.jpeg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Flor Aguilar</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+      <section id="reservation" class="reservation">
+        <div class="container">
+          <div class="form reservation-form bg-black-10">
+      
+            <form action="reservar.php" method="POST" class="form-left">
+      
+              <h2 class="headline-1 text-center">Reserva en línea</h2>
+      
+              <p class="form-text text-center">
+                Solicitud de reserva <a href="tel:+591 68249563" class="link">+591 68249563</a>
+                o rellene el formulario de pedido
+              </p>
+      
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Su nombre" autocomplete="off" class="input-field">
+      
+                <input type="tel" name="phone" placeholder="Número de teléfono" autocomplete="off" class="input-field">
+              </div>
+      
+              <div class="input-wrapper">
+      
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+      
+                  <select name="person" class="input-field">
+                    <option value="1-persona">1 Persona</option>
+                    <option value="2-personas">2 Personas</option>
+                    <option value="3-personas">3 Personas</option>
+                    <option value="4-personas">4 Personas</option>
+                    <option value="5-personas">5 Personas</option>
+                    <option value="6-personas">6 Personas</option>
+                    <option value="7-personas">7 Personas</option>
+                  </select>
+      
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+      
+                  <input type="date" name="reservation-date" class="input-field">
+      
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+      
+                  <select name="time" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="10:00am">10 : 00 am</option>
+                    <option value="11:00am">11 : 00 am</option>
+                    <option value="12:00pm">12 : 00 pm</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+      
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+      
+              </div>
+      
+              <textarea name="mensaje" placeholder="Mensaje" autocomplete="off" class="input-field"></textarea>
+      
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Reservar productos</span>
+                <span class="text text-2" aria-hidden="true">Reservar productos</span>
+              </button>
+      
+            </form>
+      
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+      
+              <h2 class="headline-1 text-center">Contáctenos</h2>
+      
+              <p class="contact-label">Solicitud de reserva</p>
+      
+              <a href="tel:+591 68249563" class="body-1 contact-number hover-underline">+591 68249563</a>
+      
+              <div class="separator"></div>
+      
+              <p class="contact-label">Ubicación</p>
+      
+              <address class="body-4">
+                Esencia Amazónica: <br>
+                Los Pinos 9578, La Paz
+              </address>
+      
+              <p class="contact-label">Hora Disponible</p>
+      
+              <p class="body-4">
+                De lunes a domingo<br>
+                10:00 am - 21:30pm
+              </p>
+      
+              <p class="contact-label">Hora de atención</p>
+      
+              <p class="body-4">
+                De lunes a domingo <br>
+                10:00 pm - 10:00pm
+              </p>
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">resultados inigualables</p>
+
+          <h2 class="headline-1 section-title">"Por qué Elegirnos"</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="imagenes.ea/ingrenatu1-removebg-preview.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Ingredientes Naturales</h3>
+
+                <p class="label-1 card-text">Cada producto está formulado con ingredientes puros de la Amazonía, seleccionados cuidadosamente para cuidar tu piel de manera natural y efectiva.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="imagenes.ea/botellas-aceite-hierbas-homeopatia-hierbas-ai-generativo_407474-5686_1_-removebg-preview.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Amigable con el Medio Ambiente</h3>
+
+                <p class="label-1 card-text">Comprometidos con la sostenibilidad, utilizamos envases reciclables y procesos que respetan el equilibrio de la naturaleza.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="imagenes.ea/facialico5.jpg.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Expertos en Cuidado de la Piel</h3>
+
+                <p class="label-1 card-text">Nuestros productos son desarrollados por expertos para ofrecer una experiencia de cuidado eficaz y segura para todos los tipos de piel.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="imagenes.ea/MFV7TQRC25GV3GOWXZSELW57UM_1_-removebg-preview.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Bienestar y Relajación</h3>
+
+                <p class="label-1 card-text">Más que cuidado de la piel, nuestros productos están diseñados para ayudarte a crear un ritual de bienestar que renueva tanto tu piel como tu espíritu.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="imagenes.ea/icono11-removebg-preview (1).png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="imagenes.ea/perfume1-removebg-preview.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section id="event" class="section event bg-black-10" aria-label="event">
+        <div class="container">
+      
+          <p class="section-subtitle label-2 text-center">Actualizaciones</p>
+      
+          <h2 class="section-title headline-1 text-center">Próximo Evento</h2>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="event-card has-before hover:shine">
+      
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="imagenes.ea/pequeño1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+      
+                  <time class="publish-date label-2" datetime="2022-09-15">12/12/2024</time>
+                </div>
+      
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Crema de Moringa y Neem</p>
+      
+                  <h3 class="card-title title-2 text-center">
+                    Purifica y protege la piel, ayudando a combatir impurezas equilibrada.
+                                    </h3>
+                </div>
+      
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="imagenes.ea/pequeño6.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">12/12/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center"> Crema de Hojas de Guaraná y Acerola</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Tonifica y revitaliza, aportando luminosidad y firmeza.
+                                    </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="imagenes.ea/crema3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">12/12/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Crema de Eucalipto Chino y Menta</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Refrescante y revitalizante, calma y energiza la piel.
+                                    </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Ver nuestro blog</span>
+
+            <span class="text text-2" aria-hidden="true">Ver nuestro Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+<!-- 
+  - #FOOTER
+-->
+<footer id="footer" class="footer section has-bg-image text-center"
+  style="background-image: url('imagenes.ea/final16.avif'); padding: 40px 0;">
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="imagenes.ea/locion.png" width="160" height="50" loading="lazy" alt="grilli home">
+        </a>
+
+        <address class="body-4" style="margin-bottom: 15px;">
+          Esencia Amazonica: Los Pinos 9578, La Paz
+        </address>
+
+        <a href="mailto:reservas@esenciaamazonica.com" class="body-4 contact-link" style="display: block; margin-bottom: 10px;">reservas@esenciaamazonica.com</a>
+
+        <a href="tel:+59168249563" class="body-4 contact-link" style="display: block; margin-bottom: 10px;">Solicitud de reserva: +591 68249563</a>
+
+        <p class="body-4" style="margin-bottom: 15px;">
+          Abierto: 10:00 am - 10:00 pm
+        </p>
+
+        <div class="wrapper">
+          <div class="separator"></div>
+          <div class="separator"></div>
+          <div class="separator"></div>
+        </div>
+
+        <p class="title-1" style="margin-top: 20px;">Recibe noticias & Ofertas</p>
+
+        <p class="label-1" style="margin-bottom: 20px;">
+          Suscríbete a nosotros & Obtén un <span class="span">25% de descuento.</span>
+        </p>
+
+        <form action="" class="input-wrapper" style="max-width: 700px; margin: 0 auto;">
+          <div class="icon-wrapper" style="display: flex; align-items: center; border: 1px solid #ccc; border-radius: 1px; padding: 1px;">
+            <ion-icon name="mail-outline" aria-hidden="true" style="margin-right: 10px; font-size: 20px;"></ion-icon>
+
+            <input type="email" name="email_address" placeholder="Tu correo electrónico" autocomplete="off" 
+              class="input-field" style="flex: 1; border: none; outline: none; font-size: 19px; padding: px;">
+          </div>
+
+          <button type="submit" class="btn btn-secondary" style="margin-top: 1px; width: 100%; font-size: 18px;">
+            <span class="text text-1">Suscribir</span>
+            <span class="text text-2" aria-hidden="true">Suscribir</span>
+          </button>
+        </form>
+       <!-- Redes sociales debajo del cuadro -->
+<ul class="footer-list" style="display: flex; justify-content: center; gap: 20px; margin-top: 30px; padding: 0; list-style: none; align-items: center;">
+  <li style="display: flex; align-items: center;">
+    <a href="https://www.facebook.com/alexandra.aguilar.313510?mibextid=ZbWKwL/TuPerfil" class="footer-link hover-underline" style="font-size: 45px;" target="_blank">
+      <i class="bi bi-facebook"></i>
+    </a>
+  </li>
+  <li style="display: flex; align-items: center;">
+    <a href=" https://wa.me/qr/4ME6YI/TuNumero" class="footer-link hover-underline" style="font-size: 45px;" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </li>
+  <li style="display: flex; align-items: center;">
+    <a href="https://www.tiktok.com/@alexandraa.a2003?_t=8rTruJVu27j&_r=1/@TuUsuario" class="footer-link hover-underline" style="font-size: 45px;" target="_blank">
+      <i class="bi bi-tiktok"></i>
+    </a>
+  </li>
+  <li style="display: flex; align-items: center;">
+    <a href="https://www.instagram.com/alexandra.aguilar.33234571/profilecard/?igsh=MWFvODZnMXY5eDRwNg==/TuUsuario" class="footer-link hover-underline" style="font-size: 45px;" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+  </li>
+</ul>
+
+    <div class="footer-bottom" style="margin-top: 50px;">
+      <p class="copyright" style="font-size: 16px;">
+        &copy; 2003 EA. Todos los derechos reservados | Creado por 
+        <a href="https://github.com/aleaguilar" target="_blank" class="link">aleaguilar</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
